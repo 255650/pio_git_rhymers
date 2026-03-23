@@ -10,17 +10,14 @@ public class DefaultRhymersFactory implements Rhymersfactory {
     public DefaultCountingOutRhymer getStandardRhymer() {
         return new DefaultCountingOutRhymer();
     }
-
     @Override
     public DefaultCountingOutRhymer getFalseRhymer() {
         return new DefaultCountingOutRhymer();
     }
-
     @Override
     public DefaultCountingOutRhymer getFIFORhymer() {
         return new FifoRhymer();
     }
-
     @Override
     public DefaultCountingOutRhymer getHanoiRhymer() {
         return new HanoiRhymer();
