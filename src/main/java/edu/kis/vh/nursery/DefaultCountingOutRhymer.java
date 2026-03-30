@@ -12,6 +12,7 @@ public class DefaultCountingOutRhymer {
         return total;
     }
     public void countIn(int in) {
+        // TODO: brak obsługi sytuacji przepełnienia (można rzucić wyjątek)
         if (!isFull())
             numbers[++total] = in;
     }
